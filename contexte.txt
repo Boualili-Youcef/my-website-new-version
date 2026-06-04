@@ -1,0 +1,536 @@
+Skip to content
+Boualili-Youcef
+User navigation
+Overview
+Repositories
+41
+ (41)
+Projects
+Packages
+Stars
+10
+ (10)
+
+Boualili Youcef
+Boualili-Youcef
+CS Master's student focused on Cloud Security, DevSecOps, Kubernetes and AWS. Building secure infrastructure projects.
+ 0 followers · 7 following
+Lille
+11:36 (UTC +02:00)
+https://youcefboualili.vercel.app/
+in/youcef-boualili
+Achievements
+Achievement: Pull Shark
+Highlights
+ Pro
+Organizations
+@Boualili-Youcef-Cloud @Boualili-Youcef-AI
+Boualili-Youcef/README.md
+Hi, I'm Youcef Boualili 👋
+Computer Science Master's student focused on Cloud Security, DevSecOps and Kubernetes Security
+I build hands-on security projects around AWS, Kubernetes, CI/CD, automation and secure infrastructure.
+
+LinkedIn Email Portfolio
+
+About me
+I'm a Computer Science student specializing in Cloud Computing and Cybersecurity, with a strong interest in Cloud Security, DevSecOps, Kubernetes, and secure infrastructure automation.
+
+My goal is to build practical and realistic projects that show real technical skills: securing Kubernetes workloads, automating cloud security checks, understanding Linux and networking deeply, and applying DevSecOps practices in real-world environments.
+
+Currently, I am focusing on:
+
+Kubernetes security: RBAC, NetworkPolicies, admission control, runtime detection and policy enforcement
+Cloud security on AWS: IAM, S3, EC2, misconfiguration detection and security automation
+DevOps fundamentals: Docker, CI/CD, GitHub Actions, Linux, Bash and infrastructure tooling
+Interview preparation for Cloud Security, DevSecOps and Platform Security roles
+Featured projects
+k8s-sec-lab
+Kubernetes DevSecOps lab demonstrating how to secure a cluster using RBAC, OPA/Conftest, Gatekeeper, Kyverno, Falco, NetworkPolicies and GitHub Actions.
+
+Focus: Kubernetes Security, DevSecOps, CI/CD, Policy-as-Code
+
+CloudSecVision
+AWS security scanner with AI-assisted analysis for IAM, S3 and EC2 risks, including automated recommendations and an interactive dashboard.
+
+Focus: AWS Security, Python, Automation, Cloud Misconfigurations
+
+secure-card-vault-poc
+Secure digital vault proof of concept using AES-256-GCM, RSA/OAEP and Argon2id to protect sensitive banking data.
+
+Focus: Cryptography, Secure Backend Design, Data Protection
+
+Mini Compiler
+Educational compiler project that transforms a simple language into x86_64 assembly code.
+
+Focus: C++, Compilers, Systems Programming
+
+Technical skills
+Cloud, DevOps and Security
+AWS Kubernetes Docker GitHub Actions Linux Bash Ansible Git
+
+Programming and backend
+Python C C++ Java JavaScript Node.js
+
+Data and tools
+MySQL MongoDB Pandas NumPy scikit-learn
+
+What I'm building right now
+Strengthening my Kubernetes security lab with realistic DevSecOps scenarios
+Preparing for cloud and DevSecOps internship interviews
+Building AWS security automation projects
+Improving my Linux, networking and Kubernetes foundations
+GitHub activity
+GitHub Streak
+
+Open to internship opportunities in Cloud Security, DevSecOps and Platform Security.
+PinnedLoading
+ k8s-sec-lab Public
+Kubernetes DevSecOps lab demonstrating RBAC limits with OPA/Conftest, Gatekeeper, Kyverno, Falco, NetworkPolicy and GitHub Actions.
+
+ Shell
+
+ CloudSecVision Public
+🛡️ Advanced AWS security scanner with AI-powered analysis using Ollama. Automated IAM, S3, and EC2 vulnerability detection with intelligent recommendations and interactive dashboard.
+
+ Python
+
+ secure-card-vault-poc Public
+A secure digital vault PoC for banking data. Features multi-actor encryption (dual control / quorum), AES-256-GCM, and Argon2id to ensure no single person can access stored credit card numbers. Bui…
+
+ Python
+
+ Mini_Compiler Public
+An autodidact's journey to understand compiler construction from the ground up. This minimalist compiler transforms a simple language into x86_64 assembly code, providing hands-on experience with t…
+
+ C++
+
+ Snake Public
+Developed a Snake game using Q-learning and Q-tables to train the AI to play autonomously.
+
+ Python
+
+ MyGit Public
+MyGit is a custom implementation of a version control system inspired by Git. This project aims to recreate the core functionality of Git from scratch to better understand its internal mechanisms a…
+
+ C++
+
+194 contributions in the last year
+Skip to contributions year list
+Contribution Graph
+Day of Week	JuneJun	JulyJul	AugustAug	SeptemberSep	OctoberOct	NovemberNov	DecemberDec	JanuaryJan	FebruaryFeb	MarchMar	AprilApr	MayMay
+SundaySun																																																					
+MondayMon																																																					
+TuesdayTue																																																					
+WednesdayWed																																																					
+ThursdayThu																																																					
+FridayFri																																																					
+SaturdaySat																																																					
+Learn how we count contributions
+Less
+No contributions.
+Low contributions.
+Medium-low contributions.
+Medium-high contributions.
+High contributions.
+More
+Activity overview
+Contributed to Boualili-Youcef/k8s-sec-lab, Boualili-Youcef/CloudSecVision, Boualili-Youcef/TP-ACT and 13 other repositories
+Loading
+ 
+Code review
+ 
+Issues
+2%
+Pull requests
+98%
+Commits
+Contribution activity
+May 2026
+Boualili-Youcef/k8s-sec-lab 35 commits
+Boualili-Youcef/CloudSecVision 1 commit
+Boualili-Youcef/Boualili-Youcef 1 commit
+ Boualili-Youcef/k8s-sec-lab
+ Shell
+This contribution was made on May 13May 13
+Loading
+Seeing something unexpected? Take a look at the GitHub profile guide.
+
+2026
+2025
+2024
+2023
+2022
+2021
+Footer
+© 2026 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Community
+Docs
+Contact
+Manage cookies
+Do not share my personal information
+
+
+Coffre-Fort Numerique -- Serveur de Paiement Securise
+Proof of Concept (PoC) d'un serveur de gestion de donnees bancaires conforme aux exigences du GIE Cartes Bancaires. Le systeme garantit la confidentialite des numeros de cartes stockes grace a un chiffrement multi-acteurs ou aucune personne seule ne peut acceder aux donnees.
+
+Objectifs de Securite
+Objectif	Mesure implementee
+Confidentialite des donnees	Chiffrement AES-256-GCM (Authenticated Encryption)
+Non-persistance de la cle maitre	Stockage exclusif en RAM volatile (/dev/shm)
+Double controle obligatoire	Quorum de deux responsables (Technique + Juridique)
+Authentification forte	Deux facteurs par acteur (mot de passe + cle USB)
+Integrite des donnees	Tag GCM verifie a chaque dechiffrement
+Resistance au brute-force	Argon2id (memory-hard KDF, 256 MiB)
+Imputabilite	Journalisation SIEM-compatible de chaque operation
+Revocation sans partage de secret	Destruction de slots par consensus (Quorum)
+Fonctionnalites
+Services conformes au cahier des charges
+Service	Description	Interface
+1.v	Initialisation du coffre (Ceremonie)	setup.py
+1.i	Mise en service (Deverrouillage)	CLI / GUI
+1.ii	Ajout d'une paire (nom, numero de carte)	CLI / GUI
+1.iii	Suppression d'une paire	CLI / GUI
+1.iv	Recherche d'un numero de carte	CLI / GUI
+1.vi	Revocation d'un acteur (Repudiation)	CLI / GUI
+Caracteristiques supplementaires
+Architecture Multi-Slots : 4 combinaisons d'acces (2 titulaires + 2 suppleants).
+Masquage PAN : les numeros de carte ne sont jamais affiches en entier (PCI-DSS v4.0 3.4).
+Protection anti-bruteforce : verrouillage apres 5 echecs consecutifs (GUI).
+Effacement securise : zeroization FIPS 140-3 (3 passes) a la deconnexion.
+Audit complet : rotation automatique des logs, sanitization anti-injection.
+Architecture Generale
+setup.py            Ceremonie d'initialisation (enrolement des acteurs)
+server.py           Console interactive (CLI)
+gui_app.py          Interface graphique (Tkinter)
+crypto_utils.py     Module cryptographique central (Argon2id, AES-GCM, Wipe)
+audit.py            Journalisation SIEM-compatible
+vault.json          Coffre chiffre (genere par setup.py)
+cards.db.enc        Base de donnees chiffree (generee a l'usage)
+Pre-requis
+Python 3.9 ou superieur.
+Systeme Linux avec acces a /dev/shm (RAM Disk tmpfs).
+WSL est supporte pour les environnements Windows.
+Installation
+# Cloner le depot
+git clone <url-du-depot>
+cd ISI_TP03
+
+# Creer un environnement virtuel
+python3 -m venv venv
+source venv/bin/activate
+
+# Installer les dependances
+pip install -r REQUIREMENTS.txt
+Utilisation
+1. Initialisation du coffre (une seule fois)
+python3 setup.py
+Cette commande lance la Ceremonie des Cles :
+
+Generation des fichiers de cle USB pour les 4 acteurs.
+Saisie et validation des mots de passe (12 caracteres minimum, complexite imposee).
+Creation du fichier vault.json contenant les 4 slots chiffres.
+Les dossiers usb_tech_main/, usb_tech_rep/, usb_jur_main/, usb_jur_rep/ simulent les supports amovibles. En production, ces fichiers doivent etre stockes sur des cles USB physiques conservees dans un coffre-fort.
+
+2. Demarrage du serveur
+Mode console (CLI)
+python3 server.py
+Mode interface graphique
+python3 gui_app.py
+3. Deverrouillage
+Deux responsables doivent s'authentifier simultanement :
+
+Selectionner le role (Titulaire ou Suppleant) pour chaque domaine.
+Fournir le chemin vers le fichier de cle USB (.bin).
+Saisir le mot de passe.
+4. Operations courantes
+Une fois le coffre deverrouille :
+
+Ajouter : saisir un nom et un numero de carte (13 a 19 chiffres).
+Rechercher : saisir un nom pour afficher le numero masque.
+Supprimer : saisir un nom pour retirer l'enregistrement.
+5. Revocation
+La destruction des droits d'un acteur se fait par consensus :
+
+Un binome valide doit s'authentifier.
+L'acteur cible est selectionne.
+Les slots impliquant cet acteur sont detruits.
+Double confirmation requise (GUI).
+Captures d'ecran
+Mode Console (CLI)
+Console interactive (server.py)
+
+Mode Interface Graphique (GUI)
+Ecran de connexion (gui_app.py)
+
+Dashboard apres deverrouillage
+
+Limitations connues
+Limitation	Justification
+Base de donnees en dict Python (nom = cle)	PoC — en production, utiliser un SGBD avec cle primaire UUID.
+Cles USB simulees par des dossiers locaux	PoC — en production, utiliser de vrais supports amovibles chiffres.
+Pas de gestion de sessions concurrentes	Mono-utilisateur par conception (acces physique requis).
+Pas de HSM materiel	PoC — en production, deleguer la gestion des cles a un HSM certifie.
+Effacement memoire best-effort	Python ne garantit pas la zeroization via le garbage collector.
+Revocation simplifiee (suppression de slots)	PoC — le rapport decrit une regeneration complete non implementee.
+Conformite et standards de reference
+Standard	Sections couvertes	Application dans le projet
+PCI-DSS v4.0	3.3, 3.4, 3.5, 8.3, 10	Chiffrement, masquage PAN, gestion des cles, audit
+NIST SP 800-57	Key Management	Cycle de vie des cles, Key Wrapping
+NIST SP 800-63B	5.1.1.2	Politique de mots de passe, liste noire
+NIST SP 800-131A	Algorithmes approuves	AES-256, longueurs de cle
+FIPS 140-3	7.7	Zeroization des secrets en memoire
+OWASP Password Storage 2024	Argon2id	Parametres de derivation (t=3, m=256MiB, p=4)
+RFC 9106	Argon2	Specification de l'algorithme
+
+
+refarde ca c'est mon site web portfolio mais il n'est pas a jour je veux le mettre a jour k8s-sec-lab
+Security Audit
+
+Lab Kubernetes DevSecOps montrant pourquoi RBAC ne suffit pas, puis ajoutant progressivement du policy-as-code, du contrôle d'admission, de la détection runtime et du confinement réseau.
+
+Problème
+Kubernetes RBAC répond à une question précise : qui peut appeler quelle API ? Il ne répond pas à la question suivante : est-ce que le contenu du workload envoyé au cluster est sûr ?
+
+Ce lab démontre qu'une identité développeur limitée peut ne pas avoir le droit de lire les secrets, tout en ayant encore le droit de créer des pods dangereux, par exemple :
+
+un conteneur privileged
+un montage hostPath sur le système de fichiers du nœud
+un token de ServiceAccount monté automatiquement dans le pod
+Le projet construit ensuite une chaîne de défense autour de ces risques : régression policy-as-code en CI, contrôle d'admission avec Gatekeeper et Kyverno, détection runtime avec Falco, puis confinement réseau ciblé avec NetworkPolicy.
+
+Architecture
+
+Loading
+Ce schéma montre la séparation importante du projet :
+
+la CI exécute une régression : les manifests d'attaque doivent être refusés et les manifests sûrs doivent passer
+la CI échoue uniquement si ce comportement attendu n'est plus respecté
+RBAC autorise ou refuse l'appel API
+Gatekeeper ou Kyverno contrôlent le contenu du manifest à l'admission
+Falco observe le comportement après le démarrage du pod
+NetworkPolicy limite certains flux réseau après la création du pod
+Couches de défense
+Couche	Outils	Ce que le lab prouve
+Autorisation	Kubernetes RBAC	dev-user ne peut pas lire les secrets, mais peut créer des pods
+Analyse statique	Conftest / OPA	les manifests dangereux sont détectés avant le cluster
+Admission	Gatekeeper et Kyverno	les workloads dangereux sont rejetés par l'API Kubernetes
+Détection runtime	Falco	les exécutions de curl et sh sont détectées après admission
+Confinement réseau	NetworkPolicy	un pod conforme peut démarrer tout en ayant son egress bloqué
+Structure du projet
+Le dépôt est organisé par couche de sécurité et par type de preuve :
+
+.
+├── .github/workflows/          # CI GitHub Actions de régression sécurité
+├── attack-manifests/           # workloads volontairement dangereux + pod sain
+├── cluster/                    # configuration Kind, RBAC, Gatekeeper, Kyverno, Falco
+├── policies/
+│   ├── conftest/               # règles OPA/Rego utilisées en CI
+│   ├── opa/                    # templates et contraintes Gatekeeper
+│   ├── kyverno/                # ClusterPolicies Kyverno
+│   ├── falco/                  # règles runtime Falco
+│   └── network/                # NetworkPolicy de confinement egress
+├── runtime-manifests/          # preuves runtime et NetworkPolicy
+├── scripts/
+│   ├── evidence/               # scripts rejouables générant les logs
+│   └── cd/                     # déploiement local des contrôles de sécurité
+├── test-manifests/             # fixtures de régression CI
+├── scan/                       # scan statique de charts Helm
+└── report/
+    ├── evidence/               # bilans, logs et captures d'écran
+    └── final-report.md         # rapport final Markdown
+Les fichiers locaux générés comme dev-user-kubeconfig.yaml et les exports PDF ne sont pas destinés à être versionnés.
+
+Démo rapide
+Prérequis : Docker, kind, kubectl, helm et conftest.
+
+Depuis la racine du dépôt :
+
+# 1. Créer le cluster Kind, le namespace, le RBAC et le kubeconfig restreint.
+bash scripts/evidence/01-bootstrap-lab.sh
+
+# 2. Rejouer la régression de politiques utilisée par la CI.
+bash scripts/evidence/12-policy-regression.sh
+
+# 3. Installer Gatekeeper et prouver le blocage à l'admission.
+bash scripts/evidence/06-gatekeeper-install-and-apply.sh
+bash scripts/evidence/07-gatekeeper-blocking-proof.sh
+
+# 4. Installer Falco et prouver la détection runtime.
+bash scripts/evidence/13-falco-install-and-apply.sh
+bash scripts/evidence/14-falco-runtime-detection.sh
+
+# 5. Prouver le confinement egress ciblé avec NetworkPolicy.
+bash scripts/evidence/15-networkpolicy-egress-proof.sh
+Kyverno peut être démontré avec :
+
+bash scripts/evidence/08-kyverno-install-and-apply.sh
+bash scripts/evidence/09-kyverno-blocking-proof.sh
+Carte des preuves
+Affirmation	Preuve principale
+RBAC est limité mais autorise encore la création de pods	report/evidence/logs/02-day2-rbac-proof.log
+RBAC seul laisse passer les trois workloads dangereux	report/evidence/logs/03-*, 04-*, 05-*
+Conftest bloque les manifests dangereux et accepte les manifests sûrs	report/evidence/logs/12-policy-regression-conftest.log
+Gatekeeper bloque les trois attaques et accepte le pod sûr	report/evidence/logs/07-gatekeeper-blocking-proof.log
+Kyverno bloque les mêmes attaques et accepte le pod sûr	report/evidence/logs/09-kyverno-blocking-proof.log
+L'admission ne voit pas le comportement après démarrage	report/evidence/logs/10-runtime-blind-spot.log
+Falco détecte l'exécution runtime de curl et sh	report/evidence/logs/14-falco-runtime-detection.log
+NetworkPolicy bloque un flux egress ciblé après admission	report/evidence/logs/15-networkpolicy-egress-proof.log
+Ce que le lab démontre
+RBAC et admission control répondent à deux problèmes différents.
+Les contrôles policy-as-code en CI réduisent les manifests risqués avant le déploiement.
+L'admission reste nécessaire, car une CI peut être contournée par un kubectl apply direct.
+Le comportement runtime n'est pas entièrement visible depuis un contrôleur d'admission.
+Falco ajoute de la visibilité runtime, mais il détecte au lieu de bloquer automatiquement.
+NetworkPolicy ajoute une première couche de confinement réseau après la création du workload.
+Le scan de charts Helm montre que la même logique de politiques peut être réutilisée côté supply chain.
+Limites connues
+Le lab cible un cluster Kind local, pas une plateforme Kubernetes de production.
+La preuve NetworkPolicy est ciblée sur un pod de démonstration, pas sur une segmentation complète de namespace.
+Falco détecte les comportements runtime mais ne bloque pas automatiquement leur exécution.
+GitHub Actions valide le contenu du dépôt, mais le déploiement reste local car le runner ne peut pas atteindre le cluster Kind.
+Les politiques couvrent les scénarios du lab, pas l'intégralité du CIS Kubernetes Benchmark.
+Le fichier dev-user-kubeconfig.yaml est généré localement et ne doit pas être versionné.
+Versions testées
+Outil	Version
+Docker	29.4.3
+kind	v0.24.0
+kubectl client	v1.35.3
+Kustomize	v5.7.1
+Helm	v3.15.0-rc.2
+Conftest / OPA	0.68.2 / 1.15.2
+Gatekeeper controller	v3.22.2
+Kyverno controller	v1.18.0
+Kyverno Helm chart	3.8.0
+Kyverno CLI en CI	v1.15.2
+Falco Helm chart	8.0.5
+Falco runtime	0.43.1
+
+CloudSecVision
+License Python AWS Streamlit Ollama
+
+CloudSecVision is a Python-based AWS security scanner with a Streamlit dashboard and optional local AI analysis through Ollama. It helps review common IAM, S3, and EC2 misconfigurations and writes scan results as local JSON reports.
+
+Contents
+Features
+Requirements
+Quick Start
+Command Line Usage
+Dashboard
+AI Analysis
+Docker Usage
+Documentation Site
+Security Notes
+Project Structure
+License
+Features
+IAM policy review for overly permissive permissions, wildcard actions, risky managed policies, and stale access keys.
+S3 bucket review for public access, bucket policies, ACL exposure, encryption, versioning, logging, and lifecycle configuration.
+EC2 security group review for public inbound access, sensitive ports, broad port ranges, default security groups, and unrestricted outbound rules.
+Streamlit dashboard for launching scans and reviewing summarized findings.
+Optional AI-generated analysis using a local Ollama server.
+Docker and Docker Compose support for local deployment.
+Docusaurus documentation site under website/.
+Requirements
+Python 3.8 or newer.
+AWS credentials configured locally with read permissions for IAM, S3, EC2, SSM, ELB, and ELBv2 checks.
+Optional: Docker and Docker Compose.
+Optional: Ollama for AI analysis.
+Recommended AWS setup:
+
+aws configure
+Use least-privilege read-only permissions where possible. Do not commit AWS credentials, generated reports, or local virtual environments.
+
+Quick Start
+git clone https://github.com/Boualili-Youcef/CloudSecVision.git
+cd CloudSecVision
+
+python -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+
+./run_dashboard.sh
+Dashboard URL:
+
+http://localhost:8501
+Command Line Usage
+Run all scanners:
+
+python main.py
+Run one service scanner:
+
+python main.py --service iam
+python main.py --service s3
+python main.py --service ec2
+Run all scanners with AI analysis enabled:
+
+python main.py --service all --ai
+Supported services are iam, s3, ec2, and all.
+
+Dashboard
+Start the dashboard:
+
+./run_dashboard.sh
+The dashboard reads generated JSON reports from scan/results/ when they exist and can launch new scans from the UI.
+
+AI Analysis
+AI analysis is optional and uses Ollama at http://localhost:11434.
+
+Start Ollama with Docker:
+
+docker run -d \
+  -p 11434:11434 \
+  -v ollama_data:/root/.ollama \
+  --name cloudsecvision-ollama \
+  ollama/ollama:latest
+Install the model expected by the analyzer:
+
+docker exec cloudsecvision-ollama ollama pull llama3.2:3b
+Then run:
+
+python main.py --service all --ai
+Docker Usage
+Build and run the main application:
+
+docker build -t cloudsecvision:latest .
+docker run -d \
+  -p 8501:8501 \
+  -v ~/.aws:/home/cloudsec/.aws:ro \
+  --name cloudsecvision-app \
+  cloudsecvision:latest
+Or use Docker Compose:
+
+docker compose up --build cloudsecvision
+The compose file also defines optional ollama and docs services.
+
+Documentation Site
+The documentation site is in website/.
+
+cd website
+npm install
+npm start
+Documentation URL:
+
+http://localhost:3000/cloudsecvision/
+Security Notes
+Scan results can contain AWS resource names, ARNs, account details, and configuration data. They are ignored by Git by default.
+venv/, node_modules/, Docusaurus build output, AWS credentials, and generated reports should stay out of version control.
+The repository history has been cleaned to remove a previously committed AWS CLI archive and virtual environment.
+After rewriting Git history, publish the cleaned branch with a reviewed --force-with-lease push and coordinate it with anyone else using the repository.
+Project Structure
+.
+|-- analysis/             # Optional Ollama-based analysis helpers
+|-- scan/                 # IAM, S3, and EC2 scanners
+|-- scripts/              # Docker helper scripts
+|-- website/              # Docusaurus documentation site
+|-- dashboard.py          # Streamlit dashboard
+|-- main.py               # CLI entry point
+|-- Dockerfile
+|-- docker-compose.yml
+`-- requirements.txt
+License
+This project is licensed under the MIT License. See LICENSE for details.

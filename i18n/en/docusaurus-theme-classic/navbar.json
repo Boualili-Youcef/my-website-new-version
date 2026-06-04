@@ -1,0 +1,22 @@
+{
+  "title": {
+    "message": "Youcef Boualili",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Youcef Boualili",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.Labs": {
+    "message": "Labs",
+    "description": "Navbar item with label Labs"
+  },
+  "item.label.À propos": {
+    "message": "About",
+    "description": "Navbar item with label À propos"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  }
+}

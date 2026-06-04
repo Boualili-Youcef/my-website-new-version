@@ -1,0 +1,54 @@
+{
+  "link.title.Portfolio": {
+    "message": "Portfolio",
+    "description": "The title of the footer links column with title=Portfolio in the footer"
+  },
+  "link.title.Focus technique": {
+    "message": "Technical focus",
+    "description": "The title of the footer links column with title=Focus technique in the footer"
+  },
+  "link.title.Contact": {
+    "message": "Contact",
+    "description": "The title of the footer links column with title=Contact in the footer"
+  },
+  "link.item.label.Accueil": {
+    "message": "Home",
+    "description": "The label of footer link with label=Accueil linking to /"
+  },
+  "link.item.label.Labs": {
+    "message": "Labs",
+    "description": "The label of footer link with label=Labs linking to /docs/labs"
+  },
+  "link.item.label.À propos": {
+    "message": "About",
+    "description": "The label of footer link with label=À propos linking to /about"
+  },
+  "link.item.label.Kubernetes Security": {
+    "message": "Kubernetes Security",
+    "description": "The label of footer link with label=Kubernetes Security linking to https://github.com/Boualili-Youcef/k8s-sec-lab"
+  },
+  "link.item.label.Cloud Security": {
+    "message": "Cloud Security",
+    "description": "The label of footer link with label=Cloud Security linking to https://github.com/Boualili-Youcef/CloudSecVision"
+  },
+  "link.item.label.Secure Backend": {
+    "message": "Secure Backend",
+    "description": "The label of footer link with label=Secure Backend linking to https://github.com/Boualili-Youcef/secure-card-vault-poc"
+  },
+  "link.item.label.LinkedIn": {
+    "message": "LinkedIn",
+    "description": "The label of footer link with label=LinkedIn linking to https://linkedin.com/in/youcef-boualili"
+  },
+  "link.item.label.GitHub": {
+    "message": "GitHub",
+    "description": "The label of footer link with label=GitHub linking to https://github.com/Boualili-Youcef"
+  },
+  "link.item.label.Email": {
+    "message": "Email",
+    "description": "The label of footer link with label=Email linking to mailto:youcefboualili0@gmail.com"
+  },
+  "copyright": {
+    "message": "© 2026 Youcef Boualili. DevSecOps & Cloud Security portfolio.",
+    "description": "The footer copyright"
+  }
+}
