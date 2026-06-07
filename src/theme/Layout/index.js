@@ -1,5 +1,6 @@
 import React from 'react';
 import clsx from 'clsx';
+import {Analytics} from '@vercel/analytics/react';
 import ErrorBoundary from '@docusaurus/ErrorBoundary';
 import {
   PageMetadata,
@@ -42,6 +43,7 @@ export default function Layout(props) {
       </div>
 
       <MobileBottomNav />
+      <Analytics framework="docusaurus" />
       {!noFooter && <Footer />}
     </LayoutProvider>
   );
