@@ -1,0 +1,219 @@
+.nav,
+.panel,
+.backdrop {
+  display: none;
+}
+
+@media screen and (max-width: 700px) {
+  .backdrop {
+    background: rgba(5, 9, 12, 0.34);
+    border: 0;
+    bottom: 0;
+    display: block;
+    left: 0;
+    padding: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 430;
+  }
+
+  .nav {
+    background: color-mix(in srgb, var(--site-surface) 94%, transparent);
+    border: 1px solid var(--site-border);
+    border-radius: 8px;
+    bottom: max(0.65rem, env(safe-area-inset-bottom));
+    box-shadow: 0 20px 48px rgba(15, 23, 42, 0.2);
+    display: grid;
+    gap: 0.22rem;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    left: max(0.65rem, env(safe-area-inset-left));
+    padding: 0.38rem;
+    position: fixed;
+    right: max(0.65rem, env(safe-area-inset-right));
+    z-index: 452;
+  }
+
+  .item {
+    align-items: center;
+    appearance: none;
+    background: transparent;
+    border: 0;
+    border-radius: 7px;
+    color: var(--ifm-color-content-secondary);
+    display: inline-flex;
+    flex-direction: column;
+    font: inherit;
+    font-size: 0.64rem;
+    font-weight: 850;
+    gap: 0.28rem;
+    justify-content: center;
+    letter-spacing: 0.03em;
+    line-height: 1;
+    min-height: 56px;
+    padding: 0.45rem 0.18rem;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: background-color 160ms ease, box-shadow 160ms ease, color 160ms ease,
+      transform 160ms ease;
+  }
+
+  .item:hover,
+  .item:focus-visible {
+    color: var(--site-accent);
+    text-decoration: none;
+  }
+
+  .item:focus-visible,
+  .quickAction:focus-visible,
+  .closeButton:focus-visible {
+    outline: 2px solid var(--site-accent);
+    outline-offset: 2px;
+  }
+
+  .active {
+    background: var(--site-accent);
+    box-shadow: 0 12px 26px rgba(15, 118, 110, 0.3);
+    color: #ffffff;
+  }
+
+  .active:hover,
+  .active:focus-visible {
+    color: #ffffff;
+  }
+
+  .moreButton {
+    cursor: pointer;
+  }
+
+  .moreButton.active {
+    background: var(--site-accent-2);
+    box-shadow: 0 12px 26px rgba(180, 83, 9, 0.3);
+  }
+
+  .icon {
+    display: block;
+    height: 1.35rem;
+    stroke: currentColor;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2.2;
+    width: 1.35rem;
+  }
+
+  .panel {
+    background: var(--site-surface);
+    border: 1px solid var(--site-border);
+    border-radius: 8px;
+    bottom: calc(5.45rem + env(safe-area-inset-bottom));
+    box-shadow: 0 22px 58px rgba(15, 23, 42, 0.28);
+    display: block;
+    left: max(0.85rem, env(safe-area-inset-left));
+    opacity: 0;
+    padding: 0.9rem;
+    pointer-events: none;
+    position: fixed;
+    right: max(0.85rem, env(safe-area-inset-right));
+    transform: translateY(0.8rem) scale(0.98);
+    transform-origin: bottom center;
+    transition: opacity 160ms ease, transform 160ms ease;
+    z-index: 451;
+  }
+
+  .panelOpen {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0) scale(1);
+  }
+
+  .panelHeader {
+    align-items: center;
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    margin-bottom: 0.85rem;
+  }
+
+  .panelHeader strong {
+    color: var(--site-heading);
+    display: block;
+    font-size: 1rem;
+    line-height: 1.2;
+  }
+
+  .panelHeader span {
+    color: var(--ifm-color-content-secondary);
+    display: block;
+    font-size: 0.82rem;
+    line-height: 1.4;
+    margin-top: 0.16rem;
+  }
+
+  .closeButton {
+    align-items: center;
+    appearance: none;
+    background: var(--site-bg-alt);
+    border: 1px solid var(--site-border);
+    border-radius: 8px;
+    color: var(--site-heading);
+    cursor: pointer;
+    display: inline-flex;
+    flex: 0 0 42px;
+    font: inherit;
+    font-size: 1.45rem;
+    font-weight: 400;
+    height: 42px;
+    justify-content: center;
+    line-height: 1;
+    padding: 0;
+    width: 42px;
+  }
+
+  .quickActions {
+    display: grid;
+    gap: 0.55rem;
+  }
+
+  .quickAction {
+    align-items: center;
+    appearance: none;
+    background: var(--site-bg-alt);
+    border: 1px solid var(--site-border);
+    border-radius: 8px;
+    color: var(--site-heading);
+    cursor: pointer;
+    display: flex;
+    font: inherit;
+    font-size: 0.95rem;
+    font-weight: 800;
+    gap: 0.75rem;
+    min-height: 52px;
+    padding: 0.75rem 0.9rem;
+    text-align: left;
+    text-decoration: none;
+    transition: background-color 160ms ease, border-color 160ms ease, color 160ms ease;
+    width: 100%;
+  }
+
+  .quickAction:hover,
+  .quickAction:focus-visible {
+    border-color: var(--site-accent);
+    color: var(--site-accent);
+    text-decoration: none;
+  }
+
+  .quickAction .icon {
+    color: var(--site-accent);
+    flex: 0 0 1.35rem;
+  }
+
+  [data-theme='dark'] .nav {
+    background: color-mix(in srgb, var(--site-surface) 92%, transparent);
+    box-shadow: 0 20px 48px rgba(0, 0, 0, 0.38);
+  }
+
+  [data-theme='dark'] .panel {
+    box-shadow: 0 22px 58px rgba(0, 0, 0, 0.48);
+  }
+}

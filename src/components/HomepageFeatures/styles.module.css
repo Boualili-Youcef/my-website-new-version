@@ -270,13 +270,88 @@
 }
 
 @media screen and (max-width: 700px) {
+  .section,
+  .sectionAlt,
+  .contactSection {
+    padding: 2.75rem 0;
+  }
+
+  .sectionHeader {
+    margin-bottom: 1.25rem;
+  }
+
+  .sectionHeader h2 {
+    font-size: clamp(1.85rem, 10vw, 2.45rem);
+    line-height: 1.08;
+  }
+
+  .sectionHeader p {
+    font-size: 0.96rem;
+    line-height: 1.62;
+  }
+
+  .splitHeader {
+    gap: 1rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .splitHeader :global(.button) {
+    justify-content: center;
+    min-height: 48px;
+    width: 100%;
+  }
+
   .proofGrid,
   .labsGrid,
   .stackGrid {
+    gap: 0.75rem;
     grid-template-columns: 1fr;
   }
 
+  .proofCard,
+  .labCard,
+  .stackGroup,
   .timelineItem {
+    padding: 1rem;
+  }
+
+  .stackGroup {
+    min-height: 0;
+  }
+
+  .cardActions {
+    align-items: stretch;
+    display: grid;
+    gap: 0.55rem;
+    grid-template-columns: 1fr;
+  }
+
+  .cardLink,
+  .cardLinkMuted {
+    align-items: center;
+    border: 1px solid var(--site-border);
+    border-radius: 8px;
+    justify-content: center;
+    min-height: 44px;
+    padding: 0.7rem 0.8rem;
+  }
+
+  .cardLink {
+    background: var(--site-heading);
+    color: var(--site-bg);
+  }
+
+  .cardLinkMuted {
+    background: var(--site-surface);
+  }
+
+  .cardLink:hover {
+    background: var(--site-accent);
+    color: #ffffff;
+  }
+
+  .timelineItem {
+    gap: 1rem;
     grid-template-columns: 1fr;
   }
 
@@ -286,12 +361,27 @@
     gap: 0.85rem;
   }
 
+  .timelineMeta span {
+    font-size: 0.76rem;
+  }
+
+  .contactPanel {
+    gap: 1.2rem;
+    padding: 1.2rem;
+  }
+
   .contactActions,
   .contactActions :global(.button) {
     width: 100%;
   }
 
+  .contactActions {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
   .contactActions :global(.button) {
     justify-content: center;
+    min-height: 48px;
   }
 }
